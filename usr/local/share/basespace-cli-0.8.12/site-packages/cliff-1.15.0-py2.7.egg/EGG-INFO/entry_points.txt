@@ -1,0 +1,18 @@
+[cliff.formatter.completion]
+none = cliff.complete:CompleteNoCode
+bash = cliff.complete:CompleteBash
+
+[cliff.formatter.list]
+table = cliff.formatters.table:TableFormatter
+json = cliff.formatters.json_format:JSONFormatter
+csv = cliff.formatters.commaseparated:CSVLister
+value = cliff.formatters.value:ValueFormatter
+yaml = cliff.formatters.yaml_format:YAMLFormatter
+
+[cliff.formatter.show]
+table = cliff.formatters.table:TableFormatter
+json = cliff.formatters.json_format:JSONFormatter
+shell = cliff.formatters.shell:ShellFormatter
+value = cliff.formatters.value:ValueFormatter
+yaml = cliff.formatters.yaml_format:YAMLFormatter
+

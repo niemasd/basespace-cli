@@ -1,0 +1,2 @@
+#!/bin/bash
+PYTHONPATH=$(dirname $(dirname $(realpath $0)))/share/basespace-cli-0.8.12/site-packages PATH=${PATH}:$(dirname $0) $(dirname $(dirname $(realpath $0)))/share/basespace-cli-0.8.12/bin/bs "$@"

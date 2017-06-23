@@ -1,0 +1,25 @@
+This package was debianized by the alien program by converting
+a binary .rpm package on Tue, 30 May 2017 14:24:28 +0000
+
+Copyright: UNKNOWN
+
+Information from the binary package:
+Name        : basespace-cli
+Version     : 0.8.12
+Release     : 590
+Architecture: x86_64
+Install Date: (not installed)
+Group       : Development/Libraries
+Size        : 5455371
+License     : UNKNOWN
+Signature   : (none)
+Source RPM  : basespace-cli-0.8.12-590.src.rpm
+Build Date  : Tue May 30 14:22:36 2017
+Build Host  : 008356066bf4
+Relocations : /usr 
+Vendor      : illumina <techsupport@illumina.com>
+URL         : https://help.basespace.illumina.com/articles/descriptive/basespace-cli/
+Summary     : BaseSpace's Command Line Interface (CLI).
+Description :
+The BaseSpaceCLI tool suite is a set of command line tools for interacting with BaseSpace, Illumina's cloud-based sequencing informatics platform.
+
