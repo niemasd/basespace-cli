@@ -6,4 +6,6 @@ I am in no way affiliated with Illumina, the BaseSpace team, or the BaseSpace CL
 Currently, this repository contains `basespace-cli_0.8.12-590_amd64` and `bscp_0.5.3-327_i386` (I chose the 32-bit version of `bscp` for compatibility).
 
 # INSTALLATION
-Simply clone this repository and add it to your `PATH`. To run, simply run the `bs` symbolic link in the root of the repository, which links to `usr/local/bin/bs`. 
+Simply clone this repository and add it to your `PATH`. To run, simply run the `bs` symbolic link in the root of the repository, which links to `usr/local/bin/bs`.
+
+I was able to run BaseSpace CLI out-of-the-box after cloning on an Ubuntu 16.04 and a CentOS 5.7 version, so it seems to work fine cross-platform. Mac OS X is missing the `realpath` command, which was needed for portability, but you can get it with Homebrew (`brew install coreutils`) or you can get it from [this repository](https://github.com/harto/realpath-osx) if Homebrew is not an option on your Mac. After installing `coreutils` via Homebrew, it was able to run out-of-the-box on my Mac OS X Sierra machine as well.
