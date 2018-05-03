@@ -1,3 +1,6 @@
+# IMPORTANT UPDATE
+It seems as though Illumina has finally supported non-root cross-platform usage of the BaseSpace CLI. [This official guide](https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview) provides links to the executables for various operating systems.
+
 # BaseSpace Sequence Hub Command Line Interface
 The existing installation instructions for the [BaseSpace CLI](https://help.basespace.illumina.com/articles/descriptive/basespace-cli/#Installation) require the user to have superuser access on their machine, which is not often the case in shared compute servers. After extracting the `deb` file to try to get it running without root, I noticed that it's basically just a series of Python modules/scripts. I extracted it, changed the hardcoded full paths to local paths, and created a symbolic link in the root of this repository for convenience.
 
